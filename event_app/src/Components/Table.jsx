@@ -77,7 +77,7 @@ function Table({handleEdit,events,handleDeleteEvent}) {
         </table>
       </div>
       <div>
-        <button
+        {/* <button
           type="button"
           className="btn1 btn-primary btn-lg"
           style={{
@@ -92,7 +92,7 @@ function Table({handleEdit,events,handleDeleteEvent}) {
           onClick={() => window.location.href = '/add-event'} // Example action
         >
           Add New Event
-        </button>
+        </button> */}
       </div>
 
 {/* Modal Model */}
